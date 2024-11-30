@@ -1,16 +1,94 @@
 {
-    "application": {
-        "main": {
-            "title": ""
+    "global": {
+        "dictionary": {
+            "female": "Kadın",
+            "male": "Erkek"
         },
-        "comment": {
-            
+        "icons": {
+            "close_icon_url": "test.com/icon"
         }
     },
-    "comment": {
-        "experiences": {
-            "820056b1-d1d9-483a-8e46-51cefd72df7e": "Güler Yüzlü"
+    "pages": {
+        "auth": {
+            "login": {
+                "logo_url": "text.com/logo",
+                "logo_background_color": "PRIMARY_500",
+                "title": "Telefon Doğrulaması",
+                "description": "Telefon numaranızı giriniz.",
+                "button": {
+                    "color": "PRIMARY-500",
+                    "text": "Devam"
+                }
+            },
+            "otp": {
+                "logo_url": "text.com/logo",
+                "logo_background_color": "PRIMARY_500",
+                "title": "Telefon Doğrulaması",
+                "description": "Lütfen {MASKED_PHONE_NUMBER} numaralı telefona gönderilen doğrulama kodunu giriniz.",
+                "complete_button": {
+                    "color": "PRIMARY-500",
+                    "text": "Onayla"
+                },
+                "resend_code_button": {
+                    "text": "Yeni Kod Gönder"
+                }
+            },
+            "complete_profile": {
+                "logo_url": "text.com/logo",
+                "logo_background_color": "PRIMARY_500",
+                "title": "Profilini tamamla",
+                "description": "Bilgileriniz güvenle saklanacaktır. Sadece randevu aldığınız mağazalar ile bilgileriniz paylaşılacaktır.",
+                "add_profile_photo_text": "Profil Fotoğrafı Ekle",
+                "fullname_text": "Ad Soyad",
+                "gender_text": "Cinsiyet",
+                "male_button": {
+                    "selected_color": "PRIMARY-700"
+                },
+                "female_button": {
+                    "selected_color": "SUCCESS-700"
+                },
+                "complete_button": {
+                    "color": "PRIMARY-500",
+                    "text": "Profili Tamamla"
+                }
+            },
+            "contract": {
+                "text": "Giriş yaparak {TERMS_OF_SERVICE}, {PRIVACY_POLICY} ve {KVKK} kabul etmiş sayılırsınız.",
+                "TERMS_OF_SERVICE": {
+                    "text": "Hizmet Şartlarımızı",
+                    "link": "test.com/hizmet-sartlari"
+                },
+                "PRIVACY_POLICY": {
+                    "text": "Gizlilik Politikamızı",
+                    "link": "test.com/gizlilik"
+                },
+                "KVKK": {
+                    "text": "KVKK  Aydınlatma Metnini",
+                    "link": "test.com/kvkk"
+                }
+            }
+        },
+        "location_selector": {
+            "onboarding": {
+                "title": "Konum Bilginizi Paylaşın",
+                "image_url": "test.com/image",
+                "descriptions": [
+                    {
+                        "icon_url": "test.com/icon",
+                        "text": "Size en yakın kuaför salonlarını bulun."
+                    },
+                    {
+                        "icon_url": "test.com/icon",
+                        "text": "Semtinin yıldız berberini keşfedin."
+                    }
+                ],
+                "next_button": {
+                    "color": "PRIMARY-500",
+                    "text": "İlerle"
+                }
+            },
+            "searchbar_placeholder": "Lütfen bir ilçe veya mahalle girin...",
+            
         }
     }
-
-}
+}  
