@@ -16,8 +16,8 @@
                 "title": "Telefon Doğrulaması",
                 "description": "Telefon numaranızı giriniz.",
                 "button": {
-                    "color": "PRIMARY-500",
-                    "text": "Devam"
+                    "text": "Devam",
+                    "color": "PRIMARY-500"
                 }
             },
             "otp": {
@@ -36,7 +36,7 @@
             "complete_profile": {
                 "logo_url": "text.com/logo",
                 "logo_background_color": "PRIMARY_500",
-                "title": "Profilini tamamla",
+                "title": "Profilini Tamamla",
                 "description": "Bilgileriniz güvenle saklanacaktır. Sadece randevu aldığınız mağazalar ile bilgileriniz paylaşılacaktır.",
                 "add_profile_photo_text": "Profil Fotoğrafı Ekle",
                 "fullname_text": "Ad Soyad",
@@ -56,14 +56,17 @@
                 "text": "Giriş yaparak {TERMS_OF_SERVICE}, {PRIVACY_POLICY} ve {KVKK} kabul etmiş sayılırsınız.",
                 "TERMS_OF_SERVICE": {
                     "text": "Hizmet Şartlarımızı",
+                    "color": "PRIMARY-500",
                     "link": "test.com/hizmet-sartlari"
                 },
                 "PRIVACY_POLICY": {
                     "text": "Gizlilik Politikamızı",
+                    "color": "PRIMARY-500",
                     "link": "test.com/gizlilik"
                 },
                 "KVKK": {
                     "text": "KVKK  Aydınlatma Metnini",
+                    "color": "PRIMARY-500",
                     "link": "test.com/kvkk"
                 }
             }
