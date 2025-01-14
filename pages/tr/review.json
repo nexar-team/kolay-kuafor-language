@@ -1,0 +1,241 @@
+{
+    "name": "review",
+    "description": "Yorum yapma sayfasında bulunan içeriklerdir.",
+    "language": "TR",
+    "content": {
+        "toolbarTitle": "Yorum Yap",
+        "ratingTitle": "Puan",
+        "experiences": {
+            "1": {
+                "message": "Bir şeyler yolunda gitmedi gibi… Görüşlerinizi bizimle paylaşır mısınız?",
+                "tags": [
+                    {
+                        "id": "e90f7751-ff9b-4e59-a3b8-df70ae1ddb59",
+                        "tag": "Kaba Davranış"
+                    },
+                    {
+                        "id": "e90f7751-ff9b-4e59-a3b8-df70ae1ddb59",
+                        "tag": "Kötü Saç Kesim"
+                    },
+                    {
+                        "id": "e90f7751-ff9b-4e59-a3b8-df70ae1ddb59",
+                        "tag": "Dikkatsiz"
+                    },
+                    {
+                        "id": "e90f7751-ff9b-4e59-a3b8-df70ae1ddb59",
+                        "tag": "Geç Başladı"
+                    },
+                    {
+                        "id": "e90f7751-ff9b-4e59-a3b8-df70ae1ddb59",
+                        "tag": "Hijyen Sorunu"
+                    },
+                    {
+                        "id": "e90f7751-ff9b-4e59-a3b8-df70ae1ddb59",
+                        "tag": "İlgisiz"
+                    },
+                    {
+                        "id": "e90f7751-ff9b-4e59-a3b8-df70ae1ddb59",
+                        "tag": "Yanlış Fiyat Bilgisi"
+                    },
+                    {
+                        "id": "e90f7751-ff9b-4e59-a3b8-df70ae1ddb59",
+                        "tag": "İşini Eksik Yaptı"
+                    },
+                    {
+                        "id": "e90f7751-ff9b-4e59-a3b8-df70ae1ddb59",
+                        "tag": "Rahatsız Edici Sohbet"
+                    },
+                    {
+                        "id": "e90f7751-ff9b-4e59-a3b8-df70ae1ddb59",
+                        "tag": "Sert Davranış"
+                    }
+                ]
+            },
+            "2": {
+                "message": "Daha iyi bir deneyim için nasıl geliştirebiliriz?",
+                "tags": [
+                    {
+                        "id": "a12f8763-cc9f-4ebd-a3a8-f28cba973b51",
+                        "tag": "Soğuk Davranış"
+                    },
+                    {
+                        "id": "a12f8763-cc9f-4ebd-a3a8-f28cba973b51",
+                        "tag": "Ortalama Saç Kesim"
+                    },
+                    {
+                        "id": "a12f8763-cc9f-4ebd-a3a8-f28cba973b51",
+                        "tag": "İletişim Eksik"
+                    },
+                    {
+                        "id": "a12f8763-cc9f-4ebd-a3a8-f28cba973b51",
+                        "tag": "Geç Başladı"
+                    },
+                    {
+                        "id": "a12f8763-cc9f-4ebd-a3a8-f28cba973b51",
+                        "tag": "Hijyen Konusunda Şüpheli"
+                    },
+                    {
+                        "id": "a12f8763-cc9f-4ebd-a3a8-f28cba973b51",
+                        "tag": "Çok Konuşkan"
+                    },
+                    {
+                        "id": "a12f8763-cc9f-4ebd-a3a8-f28cba973b51",
+                        "tag": "Fiyat Yüksek"
+                    },
+                    {
+                        "id": "a12f8763-cc9f-4ebd-a3a8-f28cba973b51",
+                        "tag": "Bekleme Süresi Uzun"
+                    },
+                    {
+                        "id": "a12f8763-cc9f-4ebd-a3a8-f28cba973b51",
+                        "tag": "İlgisiz Gibi"
+                    },
+                    {
+                        "id": "a12f8763-cc9f-4ebd-a3a8-f28cba973b51",
+                        "tag": "Yarım İş Bıraktı"
+                    }
+                ]
+            },
+            "3": {
+                "message": "Güzel ama daha iyi olabilir! Ne düşünüyorsunuz?",
+                "tags": [
+                    {
+                        "id": "bcafde44-789e-4e49-b1e2-17c946b9d836",
+                        "tag": "Hoş Karşılama"
+                    },
+                    {
+                        "id": "bcafde44-789e-4e49-b1e2-17c946b9d836",
+                        "tag": "Ortalama Saç Kesim"
+                    },
+                    {
+                        "id": "bcafde44-789e-4e49-b1e2-17c946b9d836",
+                        "tag": "İlgili Ama Yavaş"
+                    },
+                    {
+                        "id": "bcafde44-789e-4e49-b1e2-17c946b9d836",
+                        "tag": "Temiz Ortam"
+                    },
+                    {
+                        "id": "bcafde44-789e-4e49-b1e2-17c946b9d836",
+                        "tag": "Bekleme Süresi Var"
+                    },
+                    {
+                        "id": "bcafde44-789e-4e49-b1e2-17c946b9d836",
+                        "tag": "İletişim Yeterli"
+                    },
+                    {
+                        "id": "bcafde44-789e-4e49-b1e2-17c946b9d836",
+                        "tag": "Fiyat Uygun"
+                    },
+                    {
+                        "id": "bcafde44-789e-4e49-b1e2-17c946b9d836",
+                        "tag": "Ortalama Deneyim"
+                    },
+                    {
+                        "id": "bcafde44-789e-4e49-b1e2-17c946b9d836",
+                        "tag": "Sohbet Güzel Ama Fazla"
+                    },
+                    {
+                        "id": "bcafde44-789e-4e49-b1e2-17c946b9d836",
+                        "tag": "Biraz Yavaş"
+                    }
+                ]
+            },
+            "4": {
+                "message": "Teşekkür ederiz! Daha da iyi olmak için sabırsızlanıyoruz.",
+                "tags": [
+                    {
+                        "id": "cddeff77-452f-4b3e-b8c7-7e024d883f3f",
+                        "tag": "Nazik"
+                    },
+                    {
+                        "id": "cddeff77-452f-4b3e-b8c7-7e024d883f3f",
+                        "tag": "Profesyonel Saç Kesim"
+                    },
+                    {
+                        "id": "cddeff77-452f-4b3e-b8c7-7e024d883f3f",
+                        "tag": "Temiz"
+                    },
+                    {
+                        "id": "cddeff77-452f-4b3e-b8c7-7e024d883f3f",
+                        "tag": "Zamanında Başladı"
+                    },
+                    {
+                        "id": "cddeff77-452f-4b3e-b8c7-7e024d883f3f",
+                        "tag": "Dikkatli"
+                    },
+                    {
+                        "id": "cddeff77-452f-4b3e-b8c7-7e024d883f3f",
+                        "tag": "Güler Yüzlü"
+                    },
+                    {
+                        "id": "cddeff77-452f-4b3e-b8c7-7e024d883f3f",
+                        "tag": "Sohbet Güzel"
+                    },
+                    {
+                        "id": "cddeff77-452f-4b3e-b8c7-7e024d883f3f",
+                        "tag": "Fiyat Performans İyi"
+                    },
+                    {
+                        "id": "cddeff77-452f-4b3e-b8c7-7e024d883f3f",
+                        "tag": "Hoş Karşılama"
+                    },
+                    {
+                        "id": "cddeff77-452f-4b3e-b8c7-7e024d883f3f",
+                        "tag": "İşini Bilen"
+                    }
+                ]
+            },
+            "5": {
+                "message": "Teşekkürler! Memnun kaldığınıza çok sevindik.",
+                "tags": [
+                    {
+                        "id": "d52fcbf9-3e5f-43cb-9432-25fbfd3cb193",
+                        "tag": "Mükemmel Hizmet"
+                    },
+                    {
+                        "id": "d52fcbf9-3e5f-43cb-9432-25fbfd3cb193",
+                        "tag": "Harika Saç Kesim"
+                    },
+                    {
+                        "id": "d52fcbf9-3e5f-43cb-9432-25fbfd3cb193",
+                        "tag": "Güleryüzlü"
+                    },
+                    {
+                        "id": "d52fcbf9-3e5f-43cb-9432-25fbfd3cb193",
+                        "tag": "Profesyonel"
+                    },
+                    {
+                        "id": "d52fcbf9-3e5f-43cb-9432-25fbfd3cb193",
+                        "tag": "Kaliteli Hizmet"
+                    },
+                    {
+                        "id": "d52fcbf9-3e5f-43cb-9432-25fbfd3cb193",
+                        "tag": "Zamanında Başladı"
+                    },
+                    {
+                        "id": "d52fcbf9-3e5f-43cb-9432-25fbfd3cb193",
+                        "tag": "Uygun Fiyat"
+                    },
+                    {
+                        "id": "d52fcbf9-3e5f-43cb-9432-25fbfd3cb193",
+                        "tag": "Mükemmel Temizlik"
+                    },
+                    {
+                        "id": "d52fcbf9-3e5f-43cb-9432-25fbfd3cb193",
+                        "tag": "İlgili ve Dikkatli"
+                    },
+                    {
+                        "id": "d52fcbf9-3e5f-43cb-9432-25fbfd3cb193",
+                        "tag": "Hızlı ve Kusursuz"
+                    }
+                ]
+            }
+        },
+        "message_box_placeholder": "Yorumunuzu buraya yazın",
+        "show_name_checkbox_text": "Yorumlarda ismimin ve resmimimin görünmesini istiyorum.",
+        "submit_button": "Gönder",
+        "success_message": "Yorumunuz başarıyla gönderildi. Teşekkür ederiz!",
+        "error_message": "Yorumunuz gönderilemedi. Lütfen tekrar deneyin."
+    }
+}
