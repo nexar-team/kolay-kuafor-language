@@ -1,40 +1,35 @@
 {
-    "name": "otp",
-    "description": "OTP girişi yaptığımız ekran.",
-    "language": "TR",
-    "content": {
-        "header": {
-            "backgroundColor": "SECONDARY_100",
-            "logo": {
-                "url": "http://91.107.229.12:11300/bff/mobile/cdn/logo",
-                "tintColor": "PRIMARY_500",
-                "accessibilityDescription": "Logo Resmi"
-            },
-            "closeIcon": {
-                "url": "http://91.107.229.12:11300/bff/mobile/cdn/ic_close",
-                "tintColor": "PRIMARY_500",
-                "accessibilityDescription": "Kapatma Ikonu"
-            }
+    "header": {
+        "backgroundColor": "SECONDARY_100",
+        "logo": {
+            "url": "http://91.107.229.12:11300/bff/mobile/cdn/logo",
+            "tintColor": "PRIMARY_500",
+            "accessibilityDescription": "Logo Resmi"
         },
-        "title": {
-            "text": "Telefon Doğrulaması",
-            "color": "PRIMARY_500"
-        },
-        "description": {
-            "text": "Lütfen {MASKED_PHONE_NUMBER} numaralı telefona gönderilen doğrulama kodunu giriniz.",
-            "color": "TEXT_300"
-        },
-        "otpTextField": {
-            "fieldCount": 6,
-            "activeColor": "PRIMARY_500"
-        },
-        "resendCode": {
-            "text": "Yeni Kod Gönder",
-            "color": "PRIMARY_500",
-            "timer": {
-                "everyDurationInSeconds": 120,
-                "textColor": "TEXT_300"
-            }
+        "closeIcon": {
+            "url": "http://91.107.229.12:11300/bff/mobile/cdn/ic_close",
+            "tintColor": "PRIMARY_500",
+            "accessibilityDescription": "Kapatma Ikonu"
+        }
+    },
+    "title": {
+        "text": "Telefon Doğrulaması",
+        "color": "PRIMARY_500"
+    },
+    "description": {
+        "text": "Lütfen {MASKED_PHONE_NUMBER} numaralı telefona gönderilen doğrulama kodunu giriniz.",
+        "color": "TEXT_300"
+    },
+    "otpTextField": {
+        "fieldCount": 6,
+        "activeColor": "PRIMARY_500"
+    },
+    "resendCode": {
+        "text": "Yeni Kod Gönder",
+        "color": "PRIMARY_500",
+        "timer": {
+            "everyDurationInSeconds": 120,
+            "textColor": "TEXT_300"
         }
     }
 }

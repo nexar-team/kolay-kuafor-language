@@ -1,76 +1,71 @@
 {
-    "name": "location",
-    "description": "Lokasyon sayfasının tamamı.",
-    "language": "TR",
-    "content": {
-        "searchbar": {
-            "placeholder": {
-                "text": "Lütfen bir ilçe veya mahalle girin",
-                "color": "TEXT_100"
-            },
-            "searchIcon": {
-                "url": "http://91.107.229.12:11300/bff/mobile/cdn/ic_search",
-                "tintColor": "TEXT_100",
-                "accessibilityDescription": "Arama İkonu"
-            },
-            "closeIcon": {
-                "url": "http://91.107.229.12:11300/bff/mobile/cdn/ic_close",
-                "tintColor": "TEXT_100",
-                "accessibilityDescription": "Kapatma İkonu"
-            }
+    "searchbar": {
+        "placeholder": {
+            "text": "Lütfen bir ilçe veya mahalle girin",
+            "color": "TEXT_100"
         },
-        "header": {
+        "searchIcon": {
+            "url": "http://91.107.229.12:11300/bff/mobile/cdn/ic_search",
+            "tintColor": "TEXT_100",
+            "accessibilityDescription": "Arama İkonu"
+        },
+        "closeIcon": {
+            "url": "http://91.107.229.12:11300/bff/mobile/cdn/ic_close",
+            "tintColor": "TEXT_100",
+            "accessibilityDescription": "Kapatma İkonu"
+        }
+    },
+    "header": {
+        "icon": {
+            "url": "http://91.107.229.12:11300/bff/mobile/cdn/ic_pointer",
+            "tintColor": "PRIMARY_500",
+            "accessibilityDescription": "Lokasyon İkonu"
+        },
+        "grantLocationPermission": {
+            "text": "Konum izni ver",
+            "color": "PRIMARY_500"
+        },
+        "locationCannotBeDetermineted": {
+            "text": "Konumunuz belirlenemiyor...",
+            "color": "TEXT_300"
+        },
+        "useThisLocation": {
+            "text": "Bu konumu kullan",
+            "color": "PRIMARY_500"
+        }
+    },
+    "onboarding": {
+        "image": {
+            "backgroundColor": "PRIMARY_100",
             "icon": {
-                "url": "http://91.107.229.12:11300/bff/mobile/cdn/ic_pointer",
-                "tintColor": "PRIMARY_500",
-                "accessibilityDescription": "Lokasyon İkonu"
-            },
-            "grantLocationPermission": {
-                "text": "Konum izni ver",
-                "color": "PRIMARY_500"
-            },
-            "locationCannotBeDetermineted": {
-                "text": "Konumunuz belirlenemiyor...",
-                "color": "TEXT_300"
-            },
-            "useThisLocation": {
-                "text": "Bu konumu kullan",
-                "color": "PRIMARY_500"
+                "url": "http://91.107.229.12:11300/bff/mobile/cdn/ic_location",
+                "tintColor": "PRIMARY_500"
             }
         },
-        "onboarding": {
-            "image": {
-                "backgroundColor": "PRIMARY_100",
-                "icon": {
-                    "url": "http://91.107.229.12:11300/bff/mobile/cdn/ic_location",
-                    "tintColor": "PRIMARY_500"
-                }
-            },
-            "title": {
-                "text": "Yakınlarınızdaki Bir Yeri Bulun",
-                "color": "PRIMARY_500"
-            },
-            "description": {
-                "text": "Konum izni verin ya da yakınlarınızda bulunan bir sokak veya mahalle adı girin.",
-                "color": "TEXT_300"
+        "title": {
+            "text": "Yakınlarınızdaki Bir Yeri Bulun",
+            "color": "PRIMARY_500"
+        },
+        "description": {
+            "text": "Konum izni verin ya da yakınlarınızda bulunan bir sokak veya mahalle adı girin.",
+            "color": "TEXT_300"
+        }
+    },
+    "noResult": {
+        "image": {
+            "backgroundColor": "PRIMARY_100",
+            "icon": {
+                "url": "http://91.107.229.12:11300/bff/mobile/cdn/ic_location",
+                "tintColor": "PRIMARY_500"
             }
         },
-        "noResult": {
-            "image": {
-                "backgroundColor": "PRIMARY_100",
-                "icon": {
-                    "url": "http://91.107.229.12:11300/bff/mobile/cdn/ic_location",
-                    "tintColor": "PRIMARY_500"
-                }
-            },
-            "title": {
-                "text": "Sonuç Bulunamadı",
-                "color": "PRIMARY_500"
-            },
-            "description": {
-                "text": "Eğer ki sonuç bulamıyorsanız, etrafınızda bulunan bir sokak veya cadde adını girmeyi deneyebilirsiniz.",
-                "color": "TEXT_300"
-            }
+        "title": {
+            "text": "Sonuç Bulunamadı",
+            "color": "PRIMARY_500"
+        },
+        "description": {
+            "text": "Eğer ki sonuç bulamıyorsanız, etrafınızda bulunan bir sokak veya cadde adını girmeyi deneyebilirsiniz.",
+            "color": "TEXT_300"
         }
     }
 }

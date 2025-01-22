@@ -1,44 +1,39 @@
 {
-    "name": "login",
-    "description": "Telefon numarasının girdiği sayfa.",
-    "language": "TR",
-    "content": {
-        "header": {
-            "backgroundColor": "PRIMARY_500",
-            "logo": {
-                "url": "http://91.107.229.12:11300/bff/mobile/cdn/logo",
-                "tintColor": "SECONDARY_50",
-                "accessibilityDescription": "Logo Resmi"
-            },
-            "closeIcon": {
-                "url": "http://91.107.229.12:11300/bff/mobile/cdn/ic_close",
-                "tintColor": "SECONDARY_50",
-                "accessibilityDescription": "Kapatma Ikonu"
-            }
+    "header": {
+        "backgroundColor": "PRIMARY_500",
+        "logo": {
+            "url": "http://91.107.229.12:11300/bff/mobile/cdn/logo",
+            "tintColor": "SECONDARY_50",
+            "accessibilityDescription": "Logo Resmi"
         },
-        "title": {
-            "text": "Telefon Doğrulaması",
-            "color": "PRIMARY_500"
-        },
-        "description": {
-            "text": "Telefon numaranızı giriniz.",
-            "color": "TEXT_300"
-        },
-        "phoneTextField": {
-            "placeholder": "5XX XXX XX XX"
-        },
-        "nextButton": {
-            "text": "Kod Gönder",
-            "textColor": {
-                "enabled": "SECONDARY_50",
-                "disabled": "SECONDARY_50"
-            }, 
-            "backgroundColor": {
-                "enabled": "PRIMARY_500",
-                "disabled": "PRIMARY_200"
-            },
-            "icon": null,
-            "accessibilityDescription": "OTP Kodu Gönderme Butonu"
+        "closeIcon": {
+            "url": "http://91.107.229.12:11300/bff/mobile/cdn/ic_close",
+            "tintColor": "SECONDARY_50",
+            "accessibilityDescription": "Kapatma Ikonu"
         }
+    },
+    "title": {
+        "text": "Telefon Doğrulaması",
+        "color": "PRIMARY_500"
+    },
+    "description": {
+        "text": "Telefon numaranızı giriniz.",
+        "color": "TEXT_300"
+    },
+    "phoneTextField": {
+        "placeholder": "5XX XXX XX XX"
+    },
+    "nextButton": {
+        "text": "Kod Gönder",
+        "textColor": {
+            "enabled": "SECONDARY_50",
+            "disabled": "SECONDARY_50"
+        },
+        "backgroundColor": {
+            "enabled": "PRIMARY_500",
+            "disabled": "PRIMARY_200"
+        },
+        "icon": null,
+        "accessibilityDescription": "OTP Kodu Gönderme Butonu"
     }
 }

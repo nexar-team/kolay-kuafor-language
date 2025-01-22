@@ -1,59 +1,123 @@
 {
-    "name": "nearbyShops",
-    "description": "Yakınlardaki kuaför sayfasıdaki cms verilerini içerir.",
-    "language": "TR",
-    "content": {
-        "toolbarTitle": {
-            "text": "Yakındaki Kuaförler",
+    "toolbarTitle": {
+        "text": "Yakındaki Kuaförler",
+        "color": "PRIMARY_500"
+    },
+    "reviewCountText": {
+        "text": "({REVIEW_COUNT}+ inceleme)",
+        "color": "TEXT_200"
+    },
+    "locationIcon": {
+        "url": "",
+        "tintColor": "PRIMARY_500"
+    },
+    "distanceIcon": {
+        "url": "",
+        "tintColor": "PRIMARY_500"
+    },
+    "reviewIcon": {
+        "url": "",
+        "tintColor": "OTHER_2"
+    },
+    "orderButton": {
+        "text": "Sırala",
+        "textColor": "SECONDARY_50",
+        "backgroundColor": "PRIMARY_500",
+        "icon": {
+            "url": "",
+            "tintColor": "SECONDARY_50"
+        }
+    },
+    "filterButton": {
+        "text": "Filtrele",
+        "textColor": "TEXT_300",
+        "backgroundColor": "PRIMARY_500",
+        "icon": {
+            "url": "",
+            "tintColor": "SECONDARY_50"
+        }
+    },
+    "orderPageContent": {
+        "title": {
+            "text": "Sıralama",
+            "color": "TEXT_500"
+        },
+        "orderList": [
+            "Önerilen",
+            "En Popüler",
+            "En Yakın",
+            "En Çok Değerlendirilen"
+        ],
+        "orderSelectedColor": "PRIMARY_500",
+        "orderUnselectedColor": "TEXT_200",
+        "selectedIcon": {
+            "url": "",
+            "tintColor": "PRIMARY_500"
+        },
+        "unselectedIcon": {
+            "url": "",
+            "tintColor": "TEXT_200"
+        }
+    },
+    "filterPageContent": {
+        "title": {
+            "text": "Filtrele",
+            "color": "TEXT_500"
+        },
+        "clearButton": {
+            "text": "Temizle",
+            "textColor": "PRIMARY_500",
+            "backgroundColor": "CLEAR"
+        },
+        "servicesAndPricesText": {
+            "text": "Hizmetler & Ücretler",
+            "color": "TEXT_500"
+        },
+        "servicesAndPricesCountText": {
+            "text": "({COUNT})",
             "color": "PRIMARY_500"
         },
-        "reviewCountText": {
-            "text": "({REVIEW_COUNT}+ inceleme)",
-            "color": "TEXT_200"
-        },
-        "locationIcon": {
+        "servicesAndPricesIcon": {
             "url": "",
             "tintColor": "PRIMARY_500"
         },
-        "distanceIcon": {
-            "url": "",
-            "tintColor": "PRIMARY_500"
-        },
-        "reviewIcon": {
-            "url": "",
-            "tintColor": "OTHER_2"
-        },
-        "orderButton": {
-            "text": "Sırala",
-            "textColor": "SECONDARY_50",
-            "backgroundColor": "PRIMARY_500",
-            "icon": {
-                "url": "",
-                "tintColor": "SECONDARY_50"
-            }
-        },
-        "filterButton": {
-            "text": "Filtrele",
-            "textColor": "TEXT_300",
-            "backgroundColor": "PRIMARY_500",
-            "icon": {
-                "url": "",
-                "tintColor": "SECONDARY_50"
-            }
-        },
-        "orderPageContent": {
+        "distanceSlider": {
             "title": {
-                "text": "Sıralama",
+                "text": "Yakınımda Ara",
                 "color": "TEXT_500"
             },
-            "orderList": [
-                "Önerilen",
-                "En Popüler",
-                "En Yakın",
-                "En Çok Değerlendirilen"
-            ],
-            "orderSelectedColor": "PRIMARY_500",
-            "orderUnselectedColor": "TEXT_200",
+            "distanceText": {
+                "text": "{DISTANCE}km",
+                "color": "TEXT_500"
+            },
+            "left_icon": {
+                "url": "",
+                "tintColor": "SECONDARY_600"
+            },
+            "right_icon": {
+                "url": "",
+                "tintColor": "SECONDARY_600"
+            },
+            "primaryColor": "PRIMARY_500",
+            "secondaryColor": "SECONDARY_600"
+        },
+        "reviewSection": {
+            "title": {
+                "text": "Kuaför Solonu Puanı",
+                "color": "TEXT_500"
+            },
+            "fullFilledStarIcon": {
+                "url": "",
+                "tintColor": null
+            },
+            "halfFilledStarIcon": {
+                "url": "",
+                "tintColor": null
+            },
+            "emptyStarIcon": {
+                "url": "",
+                "tintColor": null
+            },
             "selectedIcon": {
                 "url": "",
                 "tintColor": "PRIMARY_500"
@@ -61,111 +125,42 @@
             "unselectedIcon": {
                 "url": "",
                 "tintColor": "TEXT_200"
-            }
-        },
-        "filterPageContent": {
-            "title": {
-                "text": "Filtrele",
+            },
+            "reviewFilterOptions": [
+                1,
+                2,
+                3,
+                4,
+                4.5
+            ],
+            "reviewFilterText": {
+                "text": "{NUMBER} Yıldız ve Üzeri",
                 "color": "TEXT_500"
             },
-            "clearButton": {
-                "text": "Temizle",
-                "textColor": "PRIMARY_500",
-                "backgroundColor": "CLEAR"
-            },
-            "servicesAndPricesText": {
-                "text": "Hizmetler & Ücretler",
-                "color": "TEXT_500"
-            },
-            "servicesAndPricesCountText": {
-                "text": "({COUNT})",
-                "color": "PRIMARY_500"
-            },
-            "servicesAndPricesIcon": {
-                "url": "",
-                "tintColor": "PRIMARY_500"
-            },
-            "distanceSlider": {
-                "title": {
-                    "text": "Yakınımda Ara",
-                    "color": "TEXT_500"
-                },
-                "distanceText": {
-                    "text": "{DISTANCE}km",
-                    "color": "TEXT_500"
-                },
-                "left_icon": {
-                    "url": "",
-                    "tintColor": "SECONDARY_600"
-                },
-                "right_icon": {
-                    "url": "",
-                    "tintColor": "SECONDARY_600"
-                },
-                "primaryColor": "PRIMARY_500",
-                "secondaryColor": "SECONDARY_600"
-            },
-            "reviewSection": {
-                "title": {
-                    "text": "Kuaför Solonu Puanı",
-                    "color": "TEXT_500"
-                },
-                "fullFilledStarIcon": {
-                    "url": "",
-                    "tintColor": null
-                },
-                "halfFilledStarIcon": {
-                    "url": "",
-                    "tintColor": null
-                },
-                "emptyStarIcon": {
-                    "url": "",
-                    "tintColor": null
-                },
-                "selectedIcon": {
-                    "url": "",
-                    "tintColor": "PRIMARY_500"
-                },
-                "unselectedIcon": {
-                    "url": "",
-                    "tintColor": "TEXT_200"
-                },
-                "reviewFilterOptions": [
-                    1,
-                    2,
-                    3,
-                    4,
-                    4.5
-                ],
-                "reviewFilterText": {
-                    "text": "{NUMBER} Yıldız ve Üzeri",
-                    "color": "TEXT_500"
-                },
-                "filterResultsButton": {
-                    "text": "Listele ({COUNT})",
-                    "textColor": "SECONDARY_50",
-                    "backgroundColor": "PRIMARY_500"
-                }
-            }
-        },
-        "servicesAndPricesPageContent": {
-            "title": {
-                "text": "Hizmetler & Ücretler",
-                "color": "TEXT_500"
-            },
-            "search_icon": {
-                "url": "",
-                "tintColor": "TEXT_100"
-            },
-            "searchPlaceholderText": {
-                "text": "Hizmetleri Ara",
-                "color": "TEXT_100"
-            },
-            "applyButton": {
-                "text": "Uygula",
+            "filterResultsButton": {
+                "text": "Listele ({COUNT})",
                 "textColor": "SECONDARY_50",
                 "backgroundColor": "PRIMARY_500"
             }
+        }
+    },
+    "servicesAndPricesPageContent": {
+        "title": {
+            "text": "Hizmetler & Ücretler",
+            "color": "TEXT_500"
+        },
+        "search_icon": {
+            "url": "",
+            "tintColor": "TEXT_100"
+        },
+        "searchPlaceholderText": {
+            "text": "Hizmetleri Ara",
+            "color": "TEXT_100"
+        },
+        "applyButton": {
+            "text": "Uygula",
+            "textColor": "SECONDARY_50",
+            "backgroundColor": "PRIMARY_500"
         }
     }
 }
