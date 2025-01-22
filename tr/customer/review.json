@@ -275,7 +275,12 @@
         "checkboxColor": {
             "enabled": "PRIMARY_500",
             "disabled": "PRIMARY_100"
-        }
+        },
+        "description": {
+            "text": "Adımın ve resmimin görünmesini istiyorum.",
+            "color": "TEXT_200"
+        },
+        "defaultSelected": true
     },
     "sendButton": {
         "text": "Gönder",
@@ -288,6 +293,6 @@
             "disabled": "PRIMARY_200"
         },
         "icon": null,
-        "accessibilityDescription": "Yorum Gönderme Butonu"
+        "accessibilityDescription": "İnceleme Gönderme Butonu"
     }
 }
