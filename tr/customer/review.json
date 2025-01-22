@@ -1,9 +1,41 @@
 {
     "toolbarTitle": "Yorum Yap",
+    "header": {
+        "price": {
+            "icon": {
+                "url": "http://91.107.229.12:11300/bff/mobile/cdn/ic_wallet",
+                "tintColor": "TEXT_300"
+            },
+            "price": {
+                "text": "{PRICE}",
+                "color": "TEXT_300"
+            }
+        },
+        "date": {
+            "icon": {
+                "url": "http://91.107.229.12:11300/bff/mobile/cdn/ic_calendar",
+                "tintColor": "TEXT_300"
+            },
+            "date": {
+                "text": "{DATE}",
+                "color": "TEXT_300"
+            }
+        },
+        "time": {
+            "icon": {
+                "url": "http://91.107.229.12:11300/bff/mobile/cdn/ic_clock",
+                "tintColor": "TEXT_300"
+            },
+            "time": {
+                "text": "{TIME}",
+                "color": "TEXT_300"
+            }
+        }
+    },
     "ratingTitle": "Puan",
     "experiences": {
         "1": {
-            "message": "Bir şeyler yolunda gitmedi gibi… Görüşlerinizi bizimle paylaşır mısınız?",
+            "message": "Bir şeyler yolunda gitmedi gibi...\nGörüşlerinizi bizimle paylaşır mısınız?",
             "tags": [
                 {
                     "id": "e90f7751-ff9b-4e59-a3b8-df70ae1ddb59",
@@ -93,7 +125,7 @@
             ]
         },
         "3": {
-            "message": "Güzel ama daha iyi olabilir! Ne düşünüyorsunuz?",
+            "message": "Güzel ama daha iyi olabilir!\nNe düşünüyorsunuz?",
             "tags": [
                 {
                     "id": "bcafde44-789e-4e49-b1e2-17c946b9d836",
@@ -138,7 +170,7 @@
             ]
         },
         "4": {
-            "message": "Teşekkür ederiz! Daha da iyi olmak için sabırsızlanıyoruz.",
+            "message": "Teşekkür ederiz!\nDaha da iyi olmak için sabırsızlanıyoruz.",
             "tags": [
                 {
                     "id": "cddeff77-452f-4b3e-b8c7-7e024d883f3f",
@@ -183,7 +215,7 @@
             ]
         },
         "5": {
-            "message": "Teşekkürler! Memnun kaldığınıza çok sevindik.",
+            "message": "Teşekkürler!\nMemnun kaldığınıza çok sevindik.",
             "tags": [
                 {
                     "id": "d52fcbf9-3e5f-43cb-9432-25fbfd3cb193",
@@ -228,9 +260,34 @@
             ]
         }
     },
-    "message_box_placeholder": "Yorumunuzu buraya yazın",
-    "show_name_checkbox_text": "Yorumlarda ismimin ve resmimimin görünmesini istiyorum.",
-    "submit_button": "Gönder",
-    "success_message": "Yorumunuz başarıyla gönderildi. Teşekkür ederiz!",
-    "error_message": "Yorumunuz gönderilemedi. Lütfen tekrar deneyin."
+    "messageBox": {
+        "placeholder": {
+            "text": "Yorumunuzu buraya yazın",
+            "color": "TEXT_200"
+        },
+        "limit": 500,
+        "counter": {
+            "text": "{CURRENT}/500",
+            "color": "TEXT_200"
+        }
+    },
+    "showName": {
+        "checkboxColor": {
+            "enabled": "PRIMARY_500",
+            "disabled": "PRIMARY_100"
+        }
+    },
+    "sendButton": {
+        "text": "Gönder",
+        "textColor": {
+            "enabled": "SECONDARY_50",
+            "disabled": "SECONDARY_50"
+        }, 
+        "backgroundColor": {
+            "enabled": "PRIMARY_500",
+            "disabled": "PRIMARY_200"
+        },
+        "icon": null,
+        "accessibilityDescription": "Yorum Gönderme Butonu"
+    }
 }
