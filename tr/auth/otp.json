@@ -26,10 +26,13 @@
     },
     "resendCode": {
         "text": "Yeni Kod Gönder",
-        "color": "PRIMARY_500",
-        "timer": {
-            "everyDurationInSeconds": 120,
-            "textColor": "TEXT_300"
+        "color": "PRIMARY_500"
+    },
+    "timer": {
+        "everyDurationInSeconds": 120,
+        "counter": {
+            "text": "{COUNTER}",
+            "color": "TEXT_300"
         }
     }
 }
