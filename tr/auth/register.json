@@ -1,0 +1,176 @@
+{
+    "name": "register",
+    "description": "Profili tamamlama sayfası için.",
+    "language": "TR",
+    "content": {
+        "header": {
+            "backgroundColor": "PRIMARY_500",
+            "logo": {
+                "url": "http://91.107.229.12:11300/bff/mobile/cdn/logo",
+                "tintColor": "SECONDARY_50",
+                "accessibilityDescription": "Logo Resmi"
+            },
+            "closeIcon": {
+                "url": "http://91.107.229.12:11300/bff/mobile/cdn/ic_close",
+                "tintColor": "SECONDARY_50",
+                "accessibilityDescription": "Kapatma Ikonu"
+            }
+        },
+        "title": {
+            "text": "Profilini Tamamla",
+            "color": "PRIMARY_500"
+        },
+        "description": {
+            "text": "Bilgileriniz güvenle saklanacaktır. Sadece randevu aldığınız mağazalar ile bilgileriniz paylaşılacaktır.",
+            "color": "TEXT_300"
+        },
+        "profilePhoto": {
+            "editIcon": {
+                "url": "http://91.107.229.12:11300/bff/mobile/cdn/ic_circle_edit",
+                "tintColor": null,
+                "accessibilityDescription": "Profil Resmi Ekleme İkonu"
+            },
+            "randomImages": {
+                "man": [
+                    "http://91.107.229.12:11300/bff/mobile/cdn/man_1",
+                    "http://91.107.229.12:11300/bff/mobile/cdn/man_2",
+                    "http://91.107.229.12:11300/bff/mobile/cdn/man_3",
+                    "http://91.107.229.12:11300/bff/mobile/cdn/man_4",
+                    "http://91.107.229.12:11300/bff/mobile/cdn/man_5",
+                    "http://91.107.229.12:11300/bff/mobile/cdn/man_6",
+                    "http://91.107.229.12:11300/bff/mobile/cdn/man_7",
+                    "http://91.107.229.12:11300/bff/mobile/cdn/man_8",
+                    "http://91.107.229.12:11300/bff/mobile/cdn/man_9",
+                    "http://91.107.229.12:11300/bff/mobile/cdn/man_10",
+                    "http://91.107.229.12:11300/bff/mobile/cdn/man_11"
+                ],
+                "girl": [
+                    "http://91.107.229.12:11300/bff/mobile/cdn/girl_1",
+                    "http://91.107.229.12:11300/bff/mobile/cdn/girl_2",
+                    "http://91.107.229.12:11300/bff/mobile/cdn/girl_3",
+                    "http://91.107.229.12:11300/bff/mobile/cdn/girl_4",
+                    "http://91.107.229.12:11300/bff/mobile/cdn/girl_5",
+                    "http://91.107.229.12:11300/bff/mobile/cdn/girl_6",
+                    "http://91.107.229.12:11300/bff/mobile/cdn/girl_7",
+                    "http://91.107.229.12:11300/bff/mobile/cdn/girl_8",
+                    "http://91.107.229.12:11300/bff/mobile/cdn/girl_9",
+                    "http://91.107.229.12:11300/bff/mobile/cdn/girl_10",
+                    "http://91.107.229.12:11300/bff/mobile/cdn/girl_11",
+                    "http://91.107.229.12:11300/bff/mobile/cdn/girl_12",
+                    "http://91.107.229.12:11300/bff/mobile/cdn/girl_13",
+                    "http://91.107.229.12:11300/bff/mobile/cdn/girl_14"
+                ]
+            }
+        },
+        "nameTextField": {
+            "title": "Ad Soyad",
+            "placeholder": ""
+        },
+        "genderSelector": {
+            "title": "Cinsiyet",
+            "maleButton": {
+                "text": "Erkek",
+                "textColor": {
+                    "enabled": "SECONDARY_50",
+                    "disabled": "TEXT_300"
+                }, 
+                "backgroundColor": {
+                    "enabled": "PRIMARY_700",
+                    "disabled": "SECONDARY_50"
+                },
+                "icon": null,
+                "accessibilityDescription": "Erkek Cinsiyet Butonu"
+            },
+            "femaleButton": {
+                "text": "Kadın",
+                "textColor": {
+                    "enabled": "SECONDARY_50",
+                    "disabled": "TEXT_300"
+                }, 
+                "backgroundColor": {
+                    "enabled": "OTHER_7",
+                    "disabled": "SECONDARY_50"
+                },
+                "icon": null,
+                "accessibilityDescription": "Kadın Cinsiyet Butonu"
+            }
+        },
+        "nextButton": {
+            "text": "Profili Tamamla",
+            "textColor": {
+                "enabled": "SECONDARY_50",
+                "disabled": "SECONDARY_50"
+            }, 
+            "backgroundColor": {
+                "enabled": "PRIMARY_500",
+                "disabled": "PRIMARY_200"
+            },
+            "icon": null,
+            "accessibilityDescription": "Kayıt Olma Butonu"
+        },
+        "contracts": {
+            "icon": {
+                "url": "http://91.107.229.12:11300/bff/mobile/cdn/ic_document",
+                "tintColor": "PRIMARY_500",
+                "accessibilityDescription": "Doküman İkonu"
+            },
+            "title": {
+                "text": "Sözleşmeler",
+                "color": "TEXT_300"
+            },
+            "description": {
+                "text": "Aşağıdaki sözleşmelerin hepsini kabul ediyor musunuz? Kabul ettiğinizde kaydınız tamamlanacaktır.",
+                "color": "TEXT_300"
+            },
+            "links": [
+                {
+                    "title": {
+                        "text": "Hizmet Koşulları",
+                        "color": "TEXT_300"
+                    },
+                    "link": "http://kolaykuafor.com/hizmet-kosullari"
+                },
+                {
+                    "title": {
+                        "text": "Gizlilik Politikası",
+                        "color": "TEXT_300"
+                    },
+                    "link": "http://kolaykuafor.com/gizlilik-politikasi"
+                },
+                {
+                    "title": {
+                        "text": "KVKK Aydınlatma Metni",
+                        "color": "TEXT_300"
+                    },
+                    "link": "http://kolaykuafor.com/kvkk"
+                }
+            ],
+            "closeButton": {
+                "text": "Vazgeç",
+                "textColor": {
+                    "enabled": "PRIMARY_500",
+                    "disabled": "PRIMARY_500"
+                }, 
+                "backgroundColor": {
+                    "enabled": "SECONDARY_50",
+                    "disabled": "SECONDARY_50"
+                },
+                "icon": null,
+                "accessibilityDescription": "Vazgeç Butonu"
+            },
+            "acceptButton": {
+                "text": "Kabul Et",
+                "textColor": {
+                    "enabled": "SECONDARY_50",
+                    "disabled": "SECONDARY_50"
+                }, 
+                "backgroundColor": {
+                    "enabled": "PRIMARY_500",
+                    "disabled": "PRIMARY_500"
+                },
+                "icon": null,
+                "accessibilityDescription": "Sözleşmeleri Kabul Et Butonu"
+            }
+        }
+    }
+}
