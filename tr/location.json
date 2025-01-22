@@ -32,6 +32,10 @@
         "useThisLocation": {
             "text": "Bu konumu kullan",
             "color": "PRIMARY_500"
+        },
+        "address": {
+            "text": "{ADDRESS}",
+            "color": "TEXT_300"
         }
     },
     "onboarding": {
