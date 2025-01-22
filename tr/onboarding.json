@@ -1,0 +1,55 @@
+{
+    "name": "onboarding",
+    "description": "Uygulamanın ilk açılışında karşımıza gelen sayfa.",
+    "language": "TR",
+    "content": {
+        "header": {
+            "image": {
+                "url": "http://91.107.229.12:11300/bff/mobile/cdn/onboarding",
+                "tintColor": null,
+                "accessibilityDescription": "Konum Bulma Resmi"
+            },
+            "title": {
+                "text": "Konum Bilginizi Paylaşın",
+                "color": "PRIMARY_500"
+            }
+        },
+        "substances": [
+            {
+                "icon": {
+                    "url": "http://91.107.229.12:11300/bff/mobile/cdn/ic_location_pointer",
+                    "tintColor": null,
+                    "accessibilityDescription": "Lokasyon İmleç İkonu"
+                },
+                "message": {
+                    "text": "Size en yakın kuaför salonlarını bulun.",
+                    "color": "TEXT_500"
+                }
+            },
+            {
+                "icon": {
+                    "url": "http://91.107.229.12:11300/bff/mobile/cdn/ic_scissors",
+                    "tintColor": null,
+                    "accessibilityDescription": "Makas İkonu"
+                },
+                "message": {
+                    "text": "Semtinizin popüler berberlerini keşfedin.",
+                    "color": "TEXT_500"
+                }
+            }
+        ],
+        "nextButton": {
+            "text": "İlerle",
+            "textColor": {
+                "enabled": "SECONDARY_50",
+                "disabled": "SECONDARY_50"
+            }, 
+            "backgroundColor": {
+                "enabled": "PRIMARY_500",
+                "disabled": "PRIMARY_500"
+            },
+            "icon": null,
+            "accessibilityDescription": "İlerle Butonu"
+        }
+    }
+}
